@@ -45,7 +45,7 @@ const handleCheckWinner=(squares)=>{
 
 };
     const handleClick=(num)=>{
-        if(Cells[num]!==''){
+        if(Cells[num]!===''){
             alert('Already clicked')
         }
         let squares=[...Cells];
