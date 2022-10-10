@@ -45,11 +45,11 @@ const handleCheckWinner=(squares)=>{
 
 };
     const handleClick=(num)=>{
-        if(Cells[num]!===''){
+        if(Cells[num]!==''){
             alert('Already clicked')
         }
         let squares=[...Cells];
-        if(turn=='X'){
+        if(turn==='X'){
             squares[num]='X'
             setTurn('0');
         }
